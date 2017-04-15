@@ -38,4 +38,4 @@ This repo contains the following details,
 ## Code of conduct
 * [Code of conduct](/code_of_conduct.md)
 
-For any queries raise a [issue](https://github.com/mozillatn/rust/issues) and please feel free to submit a PR anytime :) 
+For any queries raise a [issue](https://github.com/MozillaIndia/RustIndia/issues) and please feel free to submit a PR anytime :) 
