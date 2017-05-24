@@ -2,6 +2,10 @@
 
 This code of conduct outlines our expectations for participants within the [RustIndia](https://github.com/MozillaIndia/RustIndia) community, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored. Anyone who violates this code of conduct may be banned from the community.
 
+## Participation Guidelines
+
+We strictly follow the [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/)
+
 ## Our open source community strives to:
 
 * **Be friendly and patient**.
