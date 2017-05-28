@@ -1,6 +1,5 @@
 #[macro_use]
 extern crate nickel;
-
 extern crate rustc_serialize;
 
 #[macro_use(bson, doc)]
@@ -30,70 +29,50 @@ struct User {
     email: String
 }
 
-
-// fn get_data_string(result: MongoResult<Document>) -> Result<Json, String> {
-//     match result {
-//         Ok(doc) => {
-//         	println!("{ }",Bson::Document(doc).to_json());
-//         	Ok(Bson::Document(doc).to_json());
-//         },
-//         Err(e) => Err(format!("{}", e))
-//     }
-// }	
-
-
 fn main() {
 
     let mut server = Nickel::new();
     let mut router = Nickel::router();
 
- //    router.get("/users", middleware! { |request, response|
+    router.get("/users", middleware! { |request, response|
 
-	//     // Connect to the database
-	//     let client = Client::connect("localhost", 27017)
-	//       .ok().expect("Error establishing connection.");
+	    // Connect to the database
+	    let client = Client::connect("localhost", 27017)
+	      .ok().expect("Error establishing connection.");
 
-	//     // The users collection
-	//     let coll = client.db("rust-users").collection("users");
+	    // The users collection
+	    let coll = client.db("rust-users").collection("users");
 
-	//     // Create cursor that finds all documents
-	//     let mut cursor = coll.find(None, None).unwrap();
+	    // Create cursor that finds all documents
+	    let mut cursor = coll.find(None, None).unwrap();
 
-	//     // Opening for the JSON string to be returned
-	//     let mut data_result = "{\"data\":[".to_owned();
+	    // Opening for the JSON string to be returned
+	    let mut data_result = "{\"data\":[".to_owned();
 
-	//     for (i, result) in cursor.enumerate() {
-	//         match get_data_string(result) {
-	//             Ok(data) => {
-	//                 let string_data = if i == 0 {
-	//                     format!("{}", data)
-	//                 } else {
-	//                     format!("{},", data)
-	//                 };
+	    for (i, result) in cursor.enumerate() {
+	        
+	    	if let Ok(item) = result {
+	    	        if let Some(&Bson::String(ref firstname)) = item.get("firstname") {
+	    	           
+	    	            let string_data = if i == 0 {
+    	                    format!("{},", firstname)
+    	                } else {
+    	                    format!("{},", firstname)
+    	                };
+    	                data_result.push_str(&string_data);
+	    	        }
 
-	//                 data_result.push_str(&string_data);
-	//             },
+	    	        
+	    	    }
+	    }
 
-	//             Err(e) => return response.send(format!("{}", e))
-	//         }
-	//     }
+	    // Close the JSON string
+	    data_result.push_str("]}");
 
-	//     // Close the JSON string
-	//     data_result.push_str("]}");
+	    // Send back the result
+	    format!("{}", data_result)
 
-	//     // Set the returned type as JSON
-	//     response.set(MediaType::Json);
-
-	//     // Send back the result
-	//     format!("{}", data_result)
-
-	// });
-
-	router.get("/users", middleware! { |request, response|
-
-        format!("Hello from GET /users")
-
-    });
+	});
 
 	router.post("/users/new", middleware! { |request, response|
 

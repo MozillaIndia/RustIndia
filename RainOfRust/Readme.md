@@ -93,6 +93,8 @@ Below are the general Rust kits for introductary events:
 
 * [RustBridge events](https://github.com/rust-community/rustbridge)
 
+* [More practical examples](https://brson.github.io/rust-cookbook/)
+
 ## Rust Kits
 
 ### Advance Rust events 
@@ -104,11 +106,15 @@ These events are focussed at building tangible outputs at end of the day:
   * [Code](./rust_python_fib)
   * Read the documentation [here](https://dvigneshwer.github.io/posts/2016/04/Rust-Python/)
 
+#### Output :
+
 ![Rust python benchmarks](./images/rust_python_bench.png)
 
 * Benchamrking Rust 
   * Learn to benchmark different functional units of a Rust program
   * [Code](./bench_rust)
+
+#### Output :
 
 ![benchmarking Rust functions](./images/cargo_bench.png)
 
@@ -116,6 +122,32 @@ These events are focussed at building tangible outputs at end of the day:
   * Activity focusses on web development using Rust
   * [Code](./rust-users)
   * Read the documentation [here](https://dvigneshwer.github.io/posts/2017/05/Rust-web-dev/)
+
+#### Output :
+
+POST request : Create a new entry
+
+![DB status](./images/post_request.png)
+
+DB Status : Before deleting a value and after posting a new value
+
+![DB status](./images/mongodb.png)
+
+Delete a value
+
+![Delete an entry](./images/delete.png)
+
+DB Status: After deleting
+
+![DB status](./images/after_deleting.png)
+
+DB Status : Before getting all the values
+
+![DB status](./images/all_elements.png)
+
+GET request
+
+![GET Request](./images/web_get.png)
 
 * Web assembly activites
   * WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web
