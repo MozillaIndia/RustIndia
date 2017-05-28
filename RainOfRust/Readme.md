@@ -68,7 +68,7 @@ Above are the standard ways to get your events listed we have other support chan
 
 * Not able to find an Rep drop a message in [Rust India telegram Group channel](https://t.me/joinchat/AAAAAEFQaXicCPeaeVIm_Q)
 
-For any other doubts regarding any aspect please feel free to raise questions/feedbacls in the community telegram group.
+For any other doubts regarding any aspect please feel free to raise questions/feedbacks in the community telegram group.
 
 ## Resource materials
 
@@ -93,26 +93,38 @@ Below are the general Rust kits for introductary events:
 
 * [RustBridge events](https://github.com/rust-community/rustbridge)
 
-### Advance Rust events
+## Rust Kits
+
+### Advance Rust events 
 
 These events are focussed at building tangible outputs at end of the day:
 
 * Rust-python binding
   * Creating a python module in Rust which focusses on delivering high performance 
+  * [Code](./rust_python_fib)
   * Read the documentation [here](https://dvigneshwer.github.io/posts/2016/04/Rust-Python/)
+
+* Benchamrking Rust 
+  * Learn to benchmark different functional units of a Rust program
+  * [Code](./bench_rust)
+
 * Web development in Rust
   * Activity focusses on web development using Rust
-  * Read the documentation [here](https://amitkumarj441.github.io/Presentation/Rust/#1)
+  * [Code](./rust-users)
+  * Read the documentation [here](https://dvigneshwer.github.io/posts/2017/05/Rust-web-dev/)
+
 * Web assembly activites
   * WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web
   * [Documentation](http://webassembly.org/)
+
 * Servo project experiments
   * Try out the experiments listed in the website and benchmark performance
   * [Documentation](https://www.servoexperiments.com/)
+  * [Contribute to Servo bugs](https://starters.servo.org/)
+
 * Contribute to whitepaper on benchmarking Rust  
   * Select an [issue](https://github.com/dvigneshwer/Benchmarking_Rust/issues) and publish your result
 
 ## Code of conduct 
 
 Please follow the code of conduct listed [here](/code_of_conduct.md) in your events. 
-

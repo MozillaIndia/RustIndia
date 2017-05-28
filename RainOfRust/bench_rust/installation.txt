@@ -1,0 +1,16 @@
+# Use multirust to manage multiple Rust builds:
+
+# 1. Install multirust
+curl -sf https://raw.githubusercontent.com/brson/multirust/master/blastoff.sh | sh
+
+# 2. Show installed Rust builds
+multirust list-toolchains
+
+# 3. Install new build (stable, beta, nightly)
+multirust update nightly
+
+# 4. Set default
+multirust default nightly
+
+# 5. Check new default build
+multirust show-default

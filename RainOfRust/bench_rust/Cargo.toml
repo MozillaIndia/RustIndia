@@ -1,0 +1,7 @@
+[package]
+name = "bench_rust"
+version = "0.1.0"
+authors = ["Vigneshwer.D <vigneshwer.d@mu-sigma.com>"]
+
+[dependencies]
+rayon="*"
