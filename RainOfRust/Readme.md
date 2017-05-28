@@ -110,9 +110,10 @@ These events are focussed at building tangible outputs at end of the day:
 
 ![Rust python benchmarks](./images/rust_python_bench.png)
 
-* Benchamrking Rust 
+* Benchmarking Rust 
   * Learn to benchmark different functional units of a Rust program
   * [Code](./bench_rust)
+  * Read the documentation [here](https://dvigneshwer.github.io//talks/2017-05-28-Rust-Hillhacks)
 
 #### Output :
 
