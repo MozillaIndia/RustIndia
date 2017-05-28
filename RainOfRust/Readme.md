@@ -104,9 +104,13 @@ These events are focussed at building tangible outputs at end of the day:
   * [Code](./rust_python_fib)
   * Read the documentation [here](https://dvigneshwer.github.io/posts/2016/04/Rust-Python/)
 
+![Rust python benchmarks](./images/rust_python_bench.png)
+
 * Benchamrking Rust 
   * Learn to benchmark different functional units of a Rust program
   * [Code](./bench_rust)
+
+![benchmarking Rust functions](./images/cargo_bench.png)
 
 * Web development in Rust
   * Activity focusses on web development using Rust
