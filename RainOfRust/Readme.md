@@ -9,14 +9,18 @@ RainofRust campaign aims at the following aspects:
 * Creating more awareness about Rust language across the students and developer communities
 * Inspire local Rust mobilizers to start regional user groups
 * Cruating workshop kit to produce tangible outputs as deliverables of the event
+* Increase adoption of Rust
 * Use the existing communication channels to support Rust community members
 
-### Goals and Scope:
+### Metrics and Scope:
 
-* 30 Rust events (online/offline) in the month of June 2017
-* Collaborate with Tech Speakers
-* Reach to 500 Rust users
-* Introduce Rust to students and professionals/developers
+* 500 dedicated user/adopters
+* 25 Rust events (online/offline)
+* 100 attendees creating a rustaceans profile 
+* 100 attendees joining the Rust users discourse channel 
+* 10 attendees will creat a crate
+* 100 attendees joining the Rust Reddit channel 
+* 200 attendees tweeting to rustlang about a feature of rust 
 
 ## Host an event 
 
