@@ -82,6 +82,8 @@ Below are the general Rust kits for introductary events:
 
 * [Starter kit (ideal for lightning talks)](https://github.com/MozillaTN/Rust/tree/master/short_demo)
 
+* [Starter kit-2 (ideal for beginners)](https://github.com/vyaspranjal33/rust)
+
 * [Workshop Kit (ideal for 2-3 hours session)](https://github.com/MozillaTN/Rust/tree/master/long_demo)
 
 * [Basic Terminology](https://dvigneshwer.wordpress.com/2017/02/25/unraveling-rust-design/)
