@@ -40,7 +40,6 @@ The main documentation is always the best beginning, so if you haven't read yet,
   * [Syntax extensions](#syntax-extensions)
   * [Traits](#traits)
   * [Unsafe](#unsafe)
-* [Locale links](#locale-links)
 * [People](#people)
   * [Famous Rustacean Bloggers](#famous-rustacean-bloggers)
 * [Tutorials & Workshop Materials](#tutorials--workshop-materials)
