@@ -369,3 +369,5 @@ of interest if you're running a workshop on Rust.
 [Steven Fackler]: https://github.com/sfackler
 [Tetsuharu OHZEKI]: https://github.com/saneyuki
 [Yehuda Katz]: https://github.com/wycats
+
+Credits: [Camille TJHOA](https://github.com/ctjhoa)
