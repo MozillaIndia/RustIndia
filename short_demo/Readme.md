@@ -3,7 +3,7 @@
 *Reference link* :- https://doc.rust-lang.org/book
 
 # Install Rust with rustup
- [rustup](https://www.rustup.rs/) is an installer for the systems programming language [Rust](https://www.rust-lang.org/en-US/). 
+ [rustup](https://www.rustup.rs/) is an one click installer for the systems programming language [Rust](https://www.rust-lang.org/en-US/). 
 
 ## To install in linux
 
