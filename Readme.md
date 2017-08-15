@@ -33,7 +33,8 @@ This repo contains the following details,
 
 ## Community Channels: 
 * [Telegram Group Link](https://t.me/joinchat/AAAAAEFQaXicCPeaeVIm_Q)
-* [Rust India Slack Channel](http://rustindia.herokuapp.com)
+* [Rust India Slack Channel](https://rustindia.slack.com) 
+  - Get your Slack invitation [here](http://rustindia.herokuapp.com/) 
 
 ## Code of conduct
 * [Code of conduct](/code_of_conduct.md)
