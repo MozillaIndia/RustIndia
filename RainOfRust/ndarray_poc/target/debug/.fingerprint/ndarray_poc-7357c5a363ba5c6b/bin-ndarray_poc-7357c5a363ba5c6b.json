@@ -1,0 +1,1 @@
+{"rustc":3910296967556784203,"features":"[]","target":8566847289810845814,"profile":731176819336294830,"deps":[["ndarray v0.9.1",8582181626224862526]],"local":[{"MtimeBased":[[1500183141,823732219],"/home/viki/Documents/events/RustIndia/RainOfRust/ndarray_poc/target/debug/.fingerprint/ndarray_poc-7357c5a363ba5c6b/dep-bin-ndarray_poc-7357c5a363ba5c6b"]}],"rustflags":[]}

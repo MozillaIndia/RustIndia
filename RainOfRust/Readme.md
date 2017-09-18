@@ -9,18 +9,14 @@ RainofRust campaign aims at the following aspects:
 * Creating more awareness about Rust language across the students and developer communities
 * Inspire local Rust mobilizers to start regional user groups
 * Cruating workshop kit to produce tangible outputs as deliverables of the event
-* Increase adoption of Rust
 * Use the existing communication channels to support Rust community members
 
-### Metrics and Scope:
+### Goals and Scope:
 
-* 500 dedicated user/adopters
-* 25 Rust events (online/offline)
-* 100 attendees creating a rustaceans profile 
-* 100 attendees joining the Rust users discourse channel 
-* 10 attendees will creat a crate
-* 100 attendees joining the Rust Reddit channel 
-* 200 attendees tweeting to rustlang about a feature of rust 
+* 30 Rust events (online/offline) in the month of June 2017
+* Collaborate with Tech Speakers
+* Reach to 500 Rust users
+* Introduce Rust to students and professionals/developers
 
 ## Host an event 
 
@@ -82,8 +78,6 @@ Below are the general Rust kits for introductary events:
 
 * [Starter kit (ideal for lightning talks)](https://github.com/MozillaTN/Rust/tree/master/short_demo)
 
-* [Starter kit-2 (ideal for beginners)](https://github.com/vyaspranjal33/rust)
-
 * [Workshop Kit (ideal for 2-3 hours session)](https://github.com/MozillaTN/Rust/tree/master/long_demo)
 
 * [Basic Terminology](https://dvigneshwer.wordpress.com/2017/02/25/unraveling-rust-design/)
@@ -116,10 +110,9 @@ These events are focussed at building tangible outputs at end of the day:
 
 ![Rust python benchmarks](./images/rust_python_bench.png)
 
-* Benchmarking Rust 
+* Benchamrking Rust 
   * Learn to benchmark different functional units of a Rust program
   * [Code](./bench_rust)
-  * Read the documentation [here](https://dvigneshwer.github.io//talks/2017-05-28-Rust-Hillhacks)
 
 #### Output :
 
@@ -155,6 +148,10 @@ DB Status : Before getting all the values
 GET request
 
 ![GET Request](./images/web_get.png)
+
+* Building a Command line argument from scratch
+  * Simple file downloader written in Rust
+  * [Documentation](Simple file downloader written in Rust) 
 
 * Web assembly activites
   * WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web

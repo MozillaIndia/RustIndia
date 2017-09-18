@@ -1,0 +1,38 @@
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+PROFILE = Some("debug")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-o" "/home/viki/Documents/events/RustIndia/RainOfRust/rust-users/target/debug/build/rust-crypto-be7776070793c706/out/src/util_helpers.o" "-c" "src/util_helpers.c"
+exit code: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+PROFILE = Some("debug")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-o" "/home/viki/Documents/events/RustIndia/RainOfRust/rust-users/target/debug/build/rust-crypto-be7776070793c706/out/src/aesni_helpers.o" "-c" "src/aesni_helpers.c"
+exit code: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+running: "ar" "crs" "/home/viki/Documents/events/RustIndia/RainOfRust/rust-users/target/debug/build/rust-crypto-be7776070793c706/out/lib_rust_crypto_helpers.a" "/home/viki/Documents/events/RustIndia/RainOfRust/rust-users/target/debug/build/rust-crypto-be7776070793c706/out/src/util_helpers.o" "/home/viki/Documents/events/RustIndia/RainOfRust/rust-users/target/debug/build/rust-crypto-be7776070793c706/out/src/aesni_helpers.o"
+exit code: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+cargo:rustc-link-lib=static=_rust_crypto_helpers
+cargo:rustc-link-search=native=/home/viki/Documents/events/RustIndia/RainOfRust/rust-users/target/debug/build/rust-crypto-be7776070793c706/out

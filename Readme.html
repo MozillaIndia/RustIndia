@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>About RustIndia - </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <base href="">
+
+        <link rel="stylesheet" href="book.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <link rel="shortcut icon" href="favicon.png">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+
+        <!-- MathJax -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <!-- Fetch JQuery from CDN but have a local fallback -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='jquery.js'%3E%3C/script%3E"));
+            }
+        </script>
+    </head>
+    <body class="light">
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme = localStorage.getItem('theme');
+            if (theme == null) { theme = 'light'; }
+            $('body').removeClass().addClass(theme);
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var sidebar = localStorage.getItem('sidebar');
+            if (sidebar === "hidden") { $("html").addClass("sidebar-hidden") }
+            else if (sidebar === "visible") { $("html").addClass("sidebar-visible") }
+        </script>
+
+        <div id="sidebar" class="sidebar">
+            <ul class="chapter"><li class="affix"><a href="../Readme.html" class="active">About RustIndia</a></li><li class="affix"><a href="../RainOfRust/Readme.html">Rain Of Rust</a></li></ul>
+        </div>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar" class="menu-bar">
+                    <div class="left-buttons">
+                        <i id="sidebar-toggle" class="fa fa-bars"></i>
+                        <i id="theme-toggle" class="fa fa-paint-brush"></i>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <i id="print-button" class="fa fa-print" title="Print this book"></i>
+                    </div>
+                </div>
+
+                <div id="content" class="content">
+                    <a class="header" href="../Readme.html#rust-india-community-repo" id="rust-india-community-repo"><h1>Rust India Community Repo</h1></a>
+<p>This repo contains the following details,</p>
+<ul>
+<li>Details of event conducted across India</li>
+<li>Teaching kits for rust</li>
+<li>Resources for advance learning and participation</li>
+<li>Details of rust developers</li>
+<li>Community blog links</li>
+<li>Community driven project links</li>
+<li>Monthly call details</li>
+</ul>
+<a class="header" href="../Readme.html#resources" id="resources"><h2>Resources:</h2></a>
+<ul>
+<li><a href="/Important_links.md">Important Rust Links</a></li>
+<li><a href="/short_demo">5 - 10 mins Rust Demo</a></li>
+<li><a href="/long_demo">2 - 3 hrs Rust Event</a></li>
+<li><a href="/Event_issue_format.md">Event Issue template</a></li>
+<li><a href="/community_projects.md">Community Projects</a></li>
+<li><a href="/community_blog.md">Community Blog links</a></li>
+<li><a href="/monthly_calls.md">Monthly Calls</a></li>
+</ul>
+<a class="header" href="../Readme.html#contribute" id="contribute"><h2>Contribute:</h2></a>
+<ul>
+<li>Raise Event Issues</li>
+<li>Contribute to teaching kits</li>
+<li>Pitch points for developers &amp; business operators</li>
+<li>Lead a community call</li>
+<li>Create a rust project</li>
+<li>Write blogs about rust events</li>
+<li>Mobilize Rust Lang in your local Region</li>
+<li>Localize Rust resources</li>
+</ul>
+<a class="header" href="../Readme.html#community-channels" id="community-channels"><h2>Community Channels:</h2></a>
+<ul>
+<li><a href="https://t.me/joinchat/AAAAAEFQaXicCPeaeVIm_Q">Telegram Group Link</a></li>
+<li><a href="http://rustindia.herokuapp.com">Rust India Slack Channel</a></li>
+</ul>
+<a class="header" href="../Readme.html#code-of-conduct" id="code-of-conduct"><h2>Code of conduct</h2></a>
+<ul>
+<li><a href="/code_of_conduct.md">Code of conduct</a></li>
+</ul>
+<p>For any queries raise a <a href="https://github.com/MozillaIndia/RustIndia/issues">issue</a> and please feel free to submit a PR anytime :)</p>
+
+                </div>
+
+                <!-- Mobile navigation buttons -->
+                
+
+                
+                    <a href="../RainOfRust/Readme.html" class="mobile-nav-chapters next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+
+            </div>
+
+            
+
+            
+                <a href="../RainOfRust/Readme.html" class="nav-chapters next" title="You can navigate through the chapters using the arrow keys">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            
+
+        </div>
+
+
+        <!-- Local fallback for Font Awesome -->
+        <script>
+            if ($(".fa").css("font-family") !== "FontAwesome") {
+                $('<link rel="stylesheet" type="text/css" href="_FontAwesome/css/font-awesome.css">').prependTo('head');
+            }
+        </script>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3001");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload(true); // force reload from server (not from cache)
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+    
+
+        
+
+
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+    </body>
+</html>

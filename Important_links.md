@@ -15,11 +15,6 @@
 * [How does Python runtime work](http://softwareengineering.stackexchange.com/questions/313254/how-does-the-python-runtime-actually-work)
 * [Segmentation Fault explanation](http://stackoverflow.com/questions/2346806/what-is-a-segmentation-fault)
 
-
-## Practice Problem Resources
-* [Introductory problems](https://doselect.com/playground/24019)
-
-
 ## Rust Forums
 * [The Rust programming language forum](https://users.rust-lang.org)
 * [Reddit Rust thread](https://www.reddit.com/r/rust/)

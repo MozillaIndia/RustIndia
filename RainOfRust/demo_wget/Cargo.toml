@@ -1,0 +1,10 @@
+[package]
+name = "demo_wget"
+version = "0.1.0"
+authors = ["Vigneshwer.D <dvigneshwer@gmail.com>"]
+
+[dependencies]
+reqwest = "0.7.3"
+indicatif = "0.7.0"
+console = "0.5.0"
+clap = "2.26.0"

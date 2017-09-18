@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rain Of Rust - </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <base href="">
+
+        <link rel="stylesheet" href="book.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <link rel="shortcut icon" href="favicon.png">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+
+        <!-- MathJax -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <!-- Fetch JQuery from CDN but have a local fallback -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='jquery.js'%3E%3C/script%3E"));
+            }
+        </script>
+    </head>
+    <body class="light">
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme = localStorage.getItem('theme');
+            if (theme == null) { theme = 'light'; }
+            $('body').removeClass().addClass(theme);
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var sidebar = localStorage.getItem('sidebar');
+            if (sidebar === "hidden") { $("html").addClass("sidebar-hidden") }
+            else if (sidebar === "visible") { $("html").addClass("sidebar-visible") }
+        </script>
+
+        <div id="sidebar" class="sidebar">
+            <ul class="chapter"><li class="affix"><a href="../Readme.html">About RustIndia</a></li><li class="affix"><a href="../RainOfRust/Readme.html">Rain Of Rust</a></li></ul>
+        </div>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar" class="menu-bar">
+                    <div class="left-buttons">
+                        <i id="sidebar-toggle" class="fa fa-bars"></i>
+                        <i id="theme-toggle" class="fa fa-paint-brush"></i>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <i id="print-button" class="fa fa-print" title="Print this book"></i>
+                    </div>
+                </div>
+
+                <div id="content" class="content">
+                    <a class="header" href="print.html#rust-india-community-repo" id="rust-india-community-repo"><h1>Rust India Community Repo</h1></a>
+<p>This repo contains the following details,</p>
+<ul>
+<li>Details of event conducted across India</li>
+<li>Teaching kits for rust</li>
+<li>Resources for advance learning and participation</li>
+<li>Details of rust developers</li>
+<li>Community blog links</li>
+<li>Community driven project links</li>
+<li>Monthly call details</li>
+</ul>
+<a class="header" href="print.html#resources" id="resources"><h2>Resources:</h2></a>
+<ul>
+<li><a href="/Important_links.md">Important Rust Links</a></li>
+<li><a href="/short_demo">5 - 10 mins Rust Demo</a></li>
+<li><a href="/long_demo">2 - 3 hrs Rust Event</a></li>
+<li><a href="/Event_issue_format.md">Event Issue template</a></li>
+<li><a href="/community_projects.md">Community Projects</a></li>
+<li><a href="/community_blog.md">Community Blog links</a></li>
+<li><a href="/monthly_calls.md">Monthly Calls</a></li>
+</ul>
+<a class="header" href="print.html#contribute" id="contribute"><h2>Contribute:</h2></a>
+<ul>
+<li>Raise Event Issues</li>
+<li>Contribute to teaching kits</li>
+<li>Pitch points for developers &amp; business operators</li>
+<li>Lead a community call</li>
+<li>Create a rust project</li>
+<li>Write blogs about rust events</li>
+<li>Mobilize Rust Lang in your local Region</li>
+<li>Localize Rust resources</li>
+</ul>
+<a class="header" href="print.html#community-channels" id="community-channels"><h2>Community Channels:</h2></a>
+<ul>
+<li><a href="https://t.me/joinchat/AAAAAEFQaXicCPeaeVIm_Q">Telegram Group Link</a></li>
+<li><a href="http://rustindia.herokuapp.com">Rust India Slack Channel</a></li>
+</ul>
+<a class="header" href="print.html#code-of-conduct" id="code-of-conduct"><h2>Code of conduct</h2></a>
+<ul>
+<li><a href="/code_of_conduct.md">Code of conduct</a></li>
+</ul>
+<p>For any queries raise a <a href="https://github.com/MozillaIndia/RustIndia/issues">issue</a> and please feel free to submit a PR anytime :)</p>
+<a class="header" href="print.html#rainofrust-campaign-kit" id="rainofrust-campaign-kit"><h1>RainofRust Campaign Kit</h1></a>
+<p>Rust is a state of art programming language for the modern day applications, which runs blazingly fast, prevents segfaults, and guarantees thread safety.</p>
+<a class="header" href="print.html#main-aims" id="main-aims"><h2>Main Aims:</h2></a>
+<p>RainofRust campaign aims at the following aspects:</p>
+<ul>
+<li>Creating more awareness about Rust language across the students and developer communities</li>
+<li>Inspire local Rust mobilizers to start regional user groups</li>
+<li>Cruating workshop kit to produce tangible outputs as deliverables of the event</li>
+<li>Use the existing communication channels to support Rust community members</li>
+</ul>
+<a class="header" href="print.html#goals-and-scope" id="goals-and-scope"><h3>Goals and Scope:</h3></a>
+<ul>
+<li>30 Rust events (online/offline) in the month of June 2017</li>
+<li>Collaborate with Tech Speakers</li>
+<li>Reach to 500 Rust users</li>
+<li>Introduce Rust to students and professionals/developers</li>
+</ul>
+<a class="header" href="print.html#host-an-event" id="host-an-event"><h2>Host an event</h2></a>
+<p>Interested to host an event in your city, please follow the instructions below:</p>
+<ol>
+<li>Get your event listed in the <a href="https://reps.mozilla.org/">Reps portal</a>:</li>
+</ol>
+<ul>
+<li>Contact a <a href="https://reps.mozilla.org/people/#/">Mozilla representative</a> near you to get your event listed under the <a href="https://activate.mozilla.community/">MozActivate</a> category</li>
+<li>Read the <a href="https://activate.mozilla.community/eventguide/">Mozactivate event guide</a> and <a href="https://activate.mozilla.community/faq/">FAQ</a> to setup the event in your city</li>
+</ul>
+<ol start="2">
+<li>Create an <a href="https://github.com/MozillaIndia/RustIndia/issues">issue</a> in the following manner:</li>
+</ol>
+<pre><code>## Name of the Event
+(Rust Hackday @ABC city)
+
+### Location 
+(ABC city)
+
+### Event Link
+(Reps portal link)
+
+### Expected Participants and profile
+
+100 people
+* 50 web developers
+* 30 Students
+* 20 Business professionals
+
+### Links to pictures
+Flickr /Google photos
+
+### Agenda of the event
+
+* Introductory event covering
+  * Installation of Rust compiler
+  * Playing with Cargo
+  * Creating your first Rust program
+  * Exploring common data structure 
+
+### Speaker details
+
+Mozilla TechSpeaker xyz addressed the event
+</code></pre>
+<ol start="3">
+<li>Use the <a href="http://mzl.la/howwasit">feedback form</a> to report the how the event went</li>
+</ol>
+<a class="header" href="print.html#community-support" id="community-support"><h2>Community Support</h2></a>
+<p>Above are the standard ways to get your events listed we have other support channels to help you,</p>
+<ul>
+<li>Not able to find an Rep drop a message in <a href="https://t.me/joinchat/AAAAAEFQaXicCPeaeVIm_Q">Rust India telegram Group channel</a></li>
+</ul>
+<p>For any other doubts regarding any aspect please feel free to raise questions/feedbacks in the community telegram group.</p>
+<a class="header" href="print.html#resource-materials" id="resource-materials"><h2>Resource materials</h2></a>
+<p>Below are the general Rust kits for introductary events:</p>
+<ul>
+<li>
+<p><a href="https://github.com/MozillaIndia/RustIndia">Main community Repo</a> for working open and collabratively</p>
+</li>
+<li>
+<p><a href="https://github.com/MozillaTN/Rust/tree/master/short_demo">Starter kit (ideal for lightning talks)</a></p>
+</li>
+<li>
+<p><a href="https://github.com/MozillaTN/Rust/tree/master/long_demo">Workshop Kit (ideal for 2-3 hours session)</a></p>
+</li>
+<li>
+<p><a href="https://dvigneshwer.wordpress.com/2017/02/25/unraveling-rust-design/">Basic Terminology</a></p>
+</li>
+<li>
+<p>Slides:</p>
+<ul>
+<li><a href="https://dvigneshwer.github.io/files/Deep_drive_into_Rust_programming_language.pdf">Workshop slide material</a></li>
+<li><a href="https://dvigneshwer.github.io/talks/2012-03-01-talk-1">Detailed Explanation</a></li>
+<li><a href="http://angrylawyer.github.io/a-dabblers-adventures-in-rust/#slide1">Rust introduction</a></li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.youtube.com/playlist?list=PLLYM4qs6CxRAudbyqZw14ksNNmCfuZ_JS">Rust Video playlist</a></p>
+</li>
+<li>
+<p><a href="https://github.com/ctjhoa/rust-learning/">Rust learning resources</a></p>
+</li>
+<li>
+<p><a href="https://github.com/rust-community/rustbridge">RustBridge events</a></p>
+</li>
+<li>
+<p><a href="https://brson.github.io/rust-cookbook/">More practical examples</a></p>
+</li>
+</ul>
+<a class="header" href="print.html#rust-kits" id="rust-kits"><h2>Rust Kits</h2></a>
+<a class="header" href="print.html#advance-rust-events" id="advance-rust-events"><h3>Advance Rust events</h3></a>
+<p>These events are focussed at building tangible outputs at end of the day:</p>
+<ul>
+<li>Rust-python binding
+<ul>
+<li>Creating a python module in Rust which focusses on delivering high performance</li>
+<li><a href="./rust_python_fib">Code</a></li>
+<li>Read the documentation <a href="https://dvigneshwer.github.io/posts/2016/04/Rust-Python/">here</a></li>
+</ul>
+</li>
+</ul>
+<a class="header" href="print.html#output-" id="output-"><h4>Output :</h4></a>
+<p><img src="./images/rust_python_bench.png" alt="Rust python benchmarks" /></p>
+<ul>
+<li>Benchamrking Rust
+<ul>
+<li>Learn to benchmark different functional units of a Rust program</li>
+<li><a href="./bench_rust">Code</a></li>
+</ul>
+</li>
+</ul>
+<a class="header" href="print.html#output--1" id="output--1"><h4>Output :</h4></a>
+<p><img src="./images/cargo_bench.png" alt="benchmarking Rust functions" /></p>
+<ul>
+<li>Web development in Rust
+<ul>
+<li>Activity focusses on web development using Rust</li>
+<li><a href="./rust-users">Code</a></li>
+<li>Read the documentation <a href="https://dvigneshwer.github.io/posts/2017/05/Rust-web-dev/">here</a></li>
+</ul>
+</li>
+</ul>
+<a class="header" href="print.html#output--2" id="output--2"><h4>Output :</h4></a>
+<p>POST request : Create a new entry</p>
+<p><img src="./images/post_request.png" alt="DB status" /></p>
+<p>DB Status : Before deleting a value and after posting a new value</p>
+<p><img src="./images/mongodb.png" alt="DB status" /></p>
+<p>Delete a value</p>
+<p><img src="./images/delete.png" alt="Delete an entry" /></p>
+<p>DB Status: After deleting</p>
+<p><img src="./images/after_deleting.png" alt="DB status" /></p>
+<p>DB Status : Before getting all the values</p>
+<p><img src="./images/all_elements.png" alt="DB status" /></p>
+<p>GET request</p>
+<p><img src="./images/web_get.png" alt="GET Request" /></p>
+<ul>
+<li>
+<p>Web assembly activites</p>
+<ul>
+<li>WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web</li>
+<li><a href="http://webassembly.org/">Documentation</a></li>
+</ul>
+</li>
+<li>
+<p>Servo project experiments</p>
+<ul>
+<li>Try out the experiments listed in the website and benchmark performance</li>
+<li><a href="https://www.servoexperiments.com/">Documentation</a></li>
+<li><a href="https://starters.servo.org/">Contribute to Servo bugs</a></li>
+</ul>
+</li>
+<li>
+<p>Contribute to whitepaper on benchmarking Rust</p>
+<ul>
+<li>Select an <a href="https://github.com/dvigneshwer/Benchmarking_Rust/issues">issue</a> and publish your result</li>
+</ul>
+</li>
+</ul>
+<a class="header" href="print.html#code-of-conduct-1" id="code-of-conduct-1"><h2>Code of conduct</h2></a>
+<p>Please follow the code of conduct listed <a href="/code_of_conduct.md">here</a> in your events.</p>
+
+                </div>
+
+                <!-- Mobile navigation buttons -->
+                
+
+                
+
+            </div>
+
+            
+
+            
+
+        </div>
+
+
+        <!-- Local fallback for Font Awesome -->
+        <script>
+            if ($(".fa").css("font-family") !== "FontAwesome") {
+                $('<link rel="stylesheet" type="text/css" href="_FontAwesome/css/font-awesome.css">').prependTo('head');
+            }
+        </script>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3001");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload(true); // force reload from server (not from cache)
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+    
+
+        
+
+
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+    </body>
+</html>

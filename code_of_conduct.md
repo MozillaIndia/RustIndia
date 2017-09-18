@@ -72,7 +72,7 @@ Although this list cannot be exhaustive, we explicitly honor diversity in age, g
 
 ## Reporting Issues
 
-If you experience or witness unacceptable behavior—or have any other concerns—please report it by contacting us via dvigneshwer@gmail.com or iamrowdymehul@gmail.com. All reports will be handled with discretion. In your report please include:
+If you experience or witness unacceptable behavior—or have any other concerns—please report it by contacting us via dvigneshwer@gmail.com. All reports will be handled with discretion. In your report please include:
 
 Your contact information.
 
