@@ -7,6 +7,8 @@
 * [Slides](http://angrylawyer.github.io/a-dabblers-adventures-in-rust/#slide1)
 * [Web Development with Rust](http://amitkumarj441.github.io/Presentation/Rust)
 
+* [Writing an OS in Rust](https://os.phil-opp.com/)
+
 
 ## Problems Spaces of system programming language
 * [Understanding System Programming](https://en.wikipedia.org/wiki/System_programming)
