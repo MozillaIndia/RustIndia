@@ -1,11 +1,11 @@
 # Rust India Community Repo
 
-This repo contains the following details,
+This repo contains the following details:
 
 * Details of event conducted across India
-* Teaching kits for rust
+* Teaching kits for Rust
 * Resources for advance learning and participation
-* Details of rust developers
+* Details of Rust developers
 * Community blog links
 * Community driven project links
 * Monthly call details
