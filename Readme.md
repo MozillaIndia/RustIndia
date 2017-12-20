@@ -12,9 +12,9 @@ This repo contains the following details:
 
 ## Resources: 
 
-* [Important Rust Links](/Important_links.md)
-* [5 - 10 mins Rust Demo](/short_demo)
-* [2 - 3 hrs Rust Event](/long_demo)
+* [Important Rust links](/Important_links.md)
+* [5 - 10 Minute Rust Demo](/short_demo)
+* [2 - 3 Hour Rust Event](/long_demo)
 * [Event Issue template](/Event_issue_format.md)
 * [Community Projects](/community_projects.md)
 * [Community Blog links](/community_blog.md)
@@ -26,9 +26,9 @@ This repo contains the following details:
 * Contribute to teaching kits
 * Pitch points for developers & business operators
 * Lead a community call
-* Create a rust project
+* Create a Rust project
 * Write blogs about rust events
-* Mobilize Rust Lang in your local Region
+* Mobilize Rust in your local Region
 * Localize Rust resources
 
 ## Community Channels: 
@@ -39,4 +39,4 @@ This repo contains the following details:
 ## Code of conduct
 * [Code of conduct](/code_of_conduct.md)
 
-For any queries raise a [issue](https://github.com/MozillaIndia/RustIndia/issues) and please feel free to submit a PR anytime :) 
+For any queries raise a [issue](https://github.com/MozillaIndia/RustIndia/issues). Please feel free to submit a PR anytime :) 
