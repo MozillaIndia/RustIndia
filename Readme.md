@@ -32,7 +32,7 @@ This repo contains the following details:
 * Localize Rust resources
 
 ## Community Channels: 
-* [Telegram Group Link](https://t.me/joinchat/AAAAAEFQaXicCPeaeVIm_Q)
+* [Telegram Group Link](https://t.me/RustIndia)
 * [Rust India Slack Channel](https://rustindia.slack.com) 
   - Get your Slack invitation [here](http://rustindia.herokuapp.com/) 
 
