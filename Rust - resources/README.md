@@ -161,6 +161,8 @@ See [Rust RFCs](https://github.com/rust-lang/rfcs)
 | Nim             | <ul><li>[A Quick Comparison of Nim vs. Rust](https://arthurtw.github.io/2015/01/12/quick-comparison-nim-vs-rust.html) - Arthur Liao</li></ul> |
 | OCaml / Haskell | <ul><li>[Rust for functional programmers](http://science.raphael.poss.name/rust-for-functional-programmers.html)</li></ul> |
 | Python          | <ul><li>[Rust for Python Programmers](http://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/) - Armin Ronacher</li></ul> |
+| Ruby          | <ul><li>[Rust for Ruby Programmers](http://www.rustforrubyists.com/book/index.html) - Steve Klabnik</li> 
+</ul> |
 | Swift           | <ul><li>[A Swift guide to Rust](http://faq.sealedabstract.com/rust/) - sealedabstract</li><li>[Rust and Swift](http://www.chriskrycho.com/rust-and-swift.html) - [Chris Krycho][]</li></ul> |
 
 ## Applications / Libraries / Tools
