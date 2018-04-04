@@ -7,8 +7,9 @@
 * [Intermediate Kit](https://github.com/mozillascience/studyGroupLessons/tree/master/Rust-intro)
 * [Slides](http://angrylawyer.github.io/a-dabblers-adventures-in-rust/#slide1)
 * [Web Development with Rust](http://amitkumarj441.github.io/Presentation/Rust)
-
 * [Writing an OS in Rust](https://os.phil-opp.com/)
+* [trying rust for web services](https://blog.wearewizards.io/trying-rust-for-web-services)
+* [writing a micro services](http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/)
 
 
 ## Problems Spaces of system programming language
