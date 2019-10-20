@@ -4,7 +4,7 @@ A bunch of links to blog posts, articles, videos, etc for learning Rust. Feel fr
 
 ## Introduction
 
-*Do you need to be convinced that Rust worth learning?* Let us show you the [True Nature of the Force](https://brson.github.io/fireflowers/)
+*Do you need to be convinced that Rust is worth learning?* Let us show you the [True Nature of the Force](https://brson.github.io/fireflowers/)
 
 The main documentation is always the best beginning, so if you haven't read yet, start by reading [Rust docs](https://www.rust-lang.org/en-US/documentation.html). You can also have ebook versions of the doc [here](http://killercup.github.io/trpl-ebook/) and [there](https://github.com/lise-henry/books/).
 
@@ -279,15 +279,15 @@ See the awesome repo [kud1ing/awesome-rust](https://github.com/kud1ing/awesome-r
 
 This is the official [Rust Team](http://www.rust-lang.org/team.html) and [Servo Team](https://github.com/orgs/servo/people)
 
-You search for a rustacean ? [http://www.rustaceans.org/](http://www.rustaceans.org/)
+Are you looking for a rustacean? [http://www.rustaceans.org/](http://www.rustaceans.org/)
 
-You want to meet them IRL ? [Meetup groups](http://www.meetup.com/topics/rust/), [Community calendar](https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com), [Community talks list](https://github.com/rust-community/talks)
+Do you want to meet them IRL? [Meetup groups](http://www.meetup.com/topics/rust/), [Community calendar](https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com), [Community talks list](https://github.com/rust-community/talks)
 
-Go to rusty events ? [RustCamp](http://rustcamp.com/), [RustFest](http://www.rustfest.eu/), [RustConf](http://rustconf.com/), [Rust Belt Rust](http://www.rust-belt-rust.com/)
+Do you want to go to rusty events? [RustCamp](http://rustcamp.com/), [RustFest](http://www.rustfest.eu/), [RustConf](http://rustconf.com/), [Rust Belt Rust](http://www.rust-belt-rust.com/)
 
-You are looking for a job ? [Rust Jobs](http://rustjobs.rs/)
+Are you looking for a job? [Rust Jobs](http://rustjobs.rs/)
 
-You want to stay up to date ? [This Week in Rust](https://this-week-in-rust.org/), [This Week in Rust Docs](http://guillaumegomez.github.io/this-week-in-rust-docs/), [The official reddit](https://www.reddit.com/r/rust/) and [Planet Rust](http://www.planet-rust.com/)
+Do you want to stay up to date? [This Week in Rust](https://this-week-in-rust.org/), [This Week in Rust Docs](http://guillaumegomez.github.io/this-week-in-rust-docs/), [The official reddit](https://www.reddit.com/r/rust/) and [Planet Rust](http://www.planet-rust.com/)
 
 There is also [The Rust Community Blog](http://blog.community.rs/)
 
