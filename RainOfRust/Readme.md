@@ -1,6 +1,6 @@
 # RainofRust Campaign Kit
 
-Rust is a state of art programming language for the modern day applications, which runs blazingly fast, prevents segfaults, and guarantees thread safety.
+Rust is a state-of-the-art programming language for modern day applications, which runs blazingly fast, prevents segfaults, and guarantees thread safety.
 
 ## Main Aims:
 
@@ -14,17 +14,17 @@ RainofRust campaign aims at the following aspects:
 
 ### Metrics and Scope:
 
-* 500 dedicated user/adopters
+* 500 dedicated users/adopters
 * 25 Rust events (online/offline)
 * 100 attendees creating a rustaceans profile 
 * 100 attendees joining the Rust users discourse channel 
-* 10 attendees will creat a crate
+* 10 attendees will create a crate
 * 100 attendees joining the Rust Reddit channel 
 * 200 attendees tweeting to rustlang about a feature of rust 
 
 ## Host an event 
 
-Interested to host an event in your city, please follow the instructions below:
+Interested to host an event in your city? Please follow the instructions below:
 
 1. Get your event listed in the [Reps portal](https://reps.mozilla.org/):
   * Contact a [Mozilla representative](https://reps.mozilla.org/people/#/) near you to get your event listed under the [MozActivate](https://activate.mozilla.community/) category
@@ -68,9 +68,9 @@ Mozilla TechSpeaker xyz addressed the event
 
 ## Community Support 
 
-Above are the standard ways to get your events listed we have other support channels to help you,
+Above are the standard ways to get your events listed. We have other support channels to help you,
 
-* Not able to find an Rep drop a message in [Rust India telegram Group channel](https://t.me/joinchat/AAAAAEFQaXicCPeaeVIm_Q)
+* If you aren't able to find an Rep, drop a message in [Rust India telegram Group channel](https://t.me/joinchat/AAAAAEFQaXicCPeaeVIm_Q)
 
 For any other doubts regarding any aspect please feel free to raise questions/feedbacks in the community telegram group.
 
