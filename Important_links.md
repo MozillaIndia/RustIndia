@@ -11,7 +11,7 @@
 * [Writing an OS in Rust](https://os.phil-opp.com/)
 
 
-## Problems Spaces of system programming language
+## Problem Spaces of system programming language
 * [Understanding System Programming](https://en.wikipedia.org/wiki/System_programming)
 * [Buffer Overflow explanation](http://searchsecurity.techtarget.com/definition/buffer-overflow)
 * [What is runtime](http://stackoverflow.com/questions/3900549/what-is-runtime)
