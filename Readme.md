@@ -2,9 +2,9 @@
 
 This repo contains the following details:
 
-* Details of event conducted across India
+* Details of events conducted across India
 * Teaching kits for Rust
-* Resources for advance learning and participation
+* Resources for advanced learning and participation
 * Details of Rust developers
 * Community blog links
 * Community driven project links

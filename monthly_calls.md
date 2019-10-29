@@ -1,4 +1,4 @@
-# Monthy Call Details of Community
+# Monthly Call Details of Community
 
 ~~~~
 * [Month detail](link to etherpad)
